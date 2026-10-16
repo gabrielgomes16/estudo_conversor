@@ -1,0 +1,5 @@
+.venvifc/
+*.xlsx
+estudos_cursopuc/bim-python-lab
+estudos_cursopuc/PUC-RS_OpenBIM_com_Python
+__pycache__/
