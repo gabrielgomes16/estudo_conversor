@@ -3,3 +3,16 @@
 estudos_cursopuc/bim-python-lab
 estudos_cursopuc/PUC-RS_OpenBIM_com_Python
 __pycache__/
+*.py[codz]
+.env
+.venv
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints
+tempCodeRunnerFile.py
