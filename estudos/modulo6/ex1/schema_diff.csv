@@ -1,0 +1,732 @@
+﻿Entidade,Atributo,Mudança,Antes,Depois
+IfcActionRequest,Identification,novo,não existia,Opcional
+IfcActionRequest,LongDescription,novo,não existia,Opcional
+IfcActionRequest,PredefinedType,novo,não existia,Opcional
+IfcActionRequest,Status,novo,não existia,Opcional
+IfcActionRequest,RequestID,removido,Obrigatório,não existe mais
+IfcActionRequest,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcActor,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcActuatorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAirTerminalBoxType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAirTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAirToAirHeatRecoveryType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAlarmType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAnnotation,PredefinedType,novo,não existia,Opcional
+IfcAnnotation,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAppliedValue,ArithmeticOperator,novo,não existia,Opcional
+IfcAppliedValue,Category,novo,não existia,Opcional
+IfcAppliedValue,Components,novo,não existia,Opcional
+IfcAppliedValue,Condition,novo,não existia,Opcional
+IfcApproval,GivingApproval,novo,não existia,Opcional
+IfcApproval,Level,novo,não existia,Opcional
+IfcApproval,Qualifier,novo,não existia,Opcional
+IfcApproval,RequestingApproval,novo,não existia,Opcional
+IfcApproval,Status,novo,não existia,Opcional
+IfcApproval,TimeOfApproval,novo,não existia,Opcional
+IfcApproval,ApprovalDateTime,removido,Obrigatório,não existe mais
+IfcApproval,ApprovalLevel,removido,Opcional,não existe mais
+IfcApproval,ApprovalQualifier,removido,Opcional,não existe mais
+IfcApproval,ApprovalStatus,removido,Opcional,não existe mais
+IfcApproval,Identifier,obrigatoriedade,Era Obrigatório,É Opcional
+IfcApproval,Name,obrigatoriedade,Era Obrigatório,É Opcional
+IfcApprovalRelationship,RelatedApprovals,novo,não existia,Obrigatório
+IfcApprovalRelationship,RelatedApproval,removido,Obrigatório,não existe mais
+IfcApprovalRelationship,Name,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,Identification,novo,não existia,Opcional
+IfcAsset,AssetID,removido,Obrigatório,não existe mais
+IfcAsset,CurrentValue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,DepreciatedValue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,IncorporationDate,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,OriginalValue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,Owner,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,ResponsiblePerson,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,TotalReplacementCost,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsset,User,obrigatoriedade,Era Obrigatório,É Opcional
+IfcAsymmetricIShapeProfileDef,BottomFlangeEdgeRadius,novo,não existia,Opcional
+IfcAsymmetricIShapeProfileDef,BottomFlangeFilletRadius,novo,não existia,Opcional
+IfcAsymmetricIShapeProfileDef,BottomFlangeSlope,novo,não existia,Opcional
+IfcAsymmetricIShapeProfileDef,BottomFlangeThickness,novo,não existia,Obrigatório
+IfcAsymmetricIShapeProfileDef,BottomFlangeWidth,novo,não existia,Obrigatório
+IfcAsymmetricIShapeProfileDef,TopFlangeEdgeRadius,novo,não existia,Opcional
+IfcAsymmetricIShapeProfileDef,TopFlangeSlope,novo,não existia,Opcional
+IfcAsymmetricIShapeProfileDef,CentreOfGravityInY,removido,Opcional,não existe mais
+IfcAsymmetricIShapeProfileDef,FilletRadius,removido,Opcional,não existe mais
+IfcAsymmetricIShapeProfileDef,FlangeThickness,removido,Obrigatório,não existe mais
+IfcAsymmetricIShapeProfileDef,OverallWidth,removido,Obrigatório,não existe mais
+IfcAsymmetricIShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBeam,PredefinedType,novo,não existia,Opcional
+IfcBeam,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBeamType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBlobTexture,Mode,novo,não existia,Opcional
+IfcBlobTexture,Parameter,novo,não existia,Opcional
+IfcBlobTexture,TextureType,removido,Obrigatório,não existe mais
+IfcBoilerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBoundaryEdgeCondition,TranslationalStiffnessByLengthX,novo,não existia,Opcional
+IfcBoundaryEdgeCondition,TranslationalStiffnessByLengthY,novo,não existia,Opcional
+IfcBoundaryEdgeCondition,TranslationalStiffnessByLengthZ,novo,não existia,Opcional
+IfcBoundaryEdgeCondition,LinearStiffnessByLengthX,removido,Opcional,não existe mais
+IfcBoundaryEdgeCondition,LinearStiffnessByLengthY,removido,Opcional,não existe mais
+IfcBoundaryEdgeCondition,LinearStiffnessByLengthZ,removido,Opcional,não existe mais
+IfcBoundaryFaceCondition,TranslationalStiffnessByAreaX,novo,não existia,Opcional
+IfcBoundaryFaceCondition,TranslationalStiffnessByAreaY,novo,não existia,Opcional
+IfcBoundaryFaceCondition,TranslationalStiffnessByAreaZ,novo,não existia,Opcional
+IfcBoundaryFaceCondition,LinearStiffnessByAreaX,removido,Opcional,não existe mais
+IfcBoundaryFaceCondition,LinearStiffnessByAreaY,removido,Opcional,não existe mais
+IfcBoundaryFaceCondition,LinearStiffnessByAreaZ,removido,Opcional,não existe mais
+IfcBoundaryNodeCondition,TranslationalStiffnessX,novo,não existia,Opcional
+IfcBoundaryNodeCondition,TranslationalStiffnessY,novo,não existia,Opcional
+IfcBoundaryNodeCondition,TranslationalStiffnessZ,novo,não existia,Opcional
+IfcBoundaryNodeCondition,LinearStiffnessX,removido,Opcional,não existe mais
+IfcBoundaryNodeCondition,LinearStiffnessY,removido,Opcional,não existe mais
+IfcBoundaryNodeCondition,LinearStiffnessZ,removido,Opcional,não existe mais
+IfcBoundaryNodeConditionWarping,TranslationalStiffnessX,novo,não existia,Opcional
+IfcBoundaryNodeConditionWarping,TranslationalStiffnessY,novo,não existia,Opcional
+IfcBoundaryNodeConditionWarping,TranslationalStiffnessZ,novo,não existia,Opcional
+IfcBoundaryNodeConditionWarping,LinearStiffnessX,removido,Opcional,não existe mais
+IfcBoundaryNodeConditionWarping,LinearStiffnessY,removido,Opcional,não existe mais
+IfcBoundaryNodeConditionWarping,LinearStiffnessZ,removido,Opcional,não existe mais
+IfcBuilding,CompositionType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuilding,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuildingElementPart,PredefinedType,novo,não existia,Opcional
+IfcBuildingElementPart,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuildingElementProxy,PredefinedType,novo,não existia,Opcional
+IfcBuildingElementProxy,CompositionType,removido,Opcional,não existe mais
+IfcBuildingElementProxy,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuildingElementProxyType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuildingStorey,CompositionType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcBuildingStorey,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCShapeProfileDef,CentreOfGravityInX,removido,Opcional,não existe mais
+IfcCShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCableCarrierFittingType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCableCarrierSegmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCableSegmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcChillerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCircleHollowProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCircleProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcClassification,Description,novo,não existia,Opcional
+IfcClassification,ReferenceTokens,novo,não existia,Opcional
+IfcClassification,Specification,novo,não existia,Opcional
+IfcClassification,Edition,obrigatoriedade,Era Obrigatório,É Opcional
+IfcClassification,Source,obrigatoriedade,Era Obrigatório,É Opcional
+IfcClassificationReference,Description,novo,não existia,Opcional
+IfcClassificationReference,Identification,novo,não existia,Opcional
+IfcClassificationReference,Sort,novo,não existia,Opcional
+IfcClassificationReference,ItemReference,removido,Opcional,não existe mais
+IfcCoilType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcColumn,PredefinedType,novo,não existia,Opcional
+IfcColumn,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcColumnType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcComplexProperty,Specification,novo,não existia,Opcional
+IfcComplexProperty,Description,removido,Opcional,não existe mais
+IfcCompressorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCondenserType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcConstructionEquipmentResource,BaseCosts,novo,não existia,Opcional
+IfcConstructionEquipmentResource,Identification,novo,não existia,Opcional
+IfcConstructionEquipmentResource,LongDescription,novo,não existia,Opcional
+IfcConstructionEquipmentResource,PredefinedType,novo,não existia,Opcional
+IfcConstructionEquipmentResource,Usage,novo,não existia,Opcional
+IfcConstructionEquipmentResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcConstructionEquipmentResource,ResourceGroup,removido,Opcional,não existe mais
+IfcConstructionEquipmentResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcConstructionEquipmentResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcConstructionMaterialResource,BaseCosts,novo,não existia,Opcional
+IfcConstructionMaterialResource,Identification,novo,não existia,Opcional
+IfcConstructionMaterialResource,LongDescription,novo,não existia,Opcional
+IfcConstructionMaterialResource,PredefinedType,novo,não existia,Opcional
+IfcConstructionMaterialResource,Usage,novo,não existia,Opcional
+IfcConstructionMaterialResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcConstructionMaterialResource,ResourceGroup,removido,Opcional,não existe mais
+IfcConstructionMaterialResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcConstructionMaterialResource,Suppliers,removido,Opcional,não existe mais
+IfcConstructionMaterialResource,UsageRatio,removido,Opcional,não existe mais
+IfcConstructionMaterialResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcConstructionProductResource,BaseCosts,novo,não existia,Opcional
+IfcConstructionProductResource,Identification,novo,não existia,Opcional
+IfcConstructionProductResource,LongDescription,novo,não existia,Opcional
+IfcConstructionProductResource,PredefinedType,novo,não existia,Opcional
+IfcConstructionProductResource,Usage,novo,não existia,Opcional
+IfcConstructionProductResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcConstructionProductResource,ResourceGroup,removido,Opcional,não existe mais
+IfcConstructionProductResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcConstructionProductResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcConstructionResource,BaseCosts,novo,não existia,Opcional
+IfcConstructionResource,Identification,novo,não existia,Opcional
+IfcConstructionResource,LongDescription,novo,não existia,Opcional
+IfcConstructionResource,Usage,novo,não existia,Opcional
+IfcConstructionResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcConstructionResource,ResourceGroup,removido,Opcional,não existe mais
+IfcConstructionResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcConstructionResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcControl,Identification,novo,não existia,Opcional
+IfcControl,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcControllerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCooledBeamType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCoolingTowerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCostItem,CostQuantities,novo,não existia,Opcional
+IfcCostItem,CostValues,novo,não existia,Opcional
+IfcCostItem,Identification,novo,não existia,Opcional
+IfcCostItem,PredefinedType,novo,não existia,Opcional
+IfcCostItem,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCostSchedule,Identification,novo,não existia,Opcional
+IfcCostSchedule,ID,removido,Obrigatório,não existe mais
+IfcCostSchedule,PreparedBy,removido,Opcional,não existe mais
+IfcCostSchedule,SubmittedBy,removido,Opcional,não existe mais
+IfcCostSchedule,TargetUsers,removido,Opcional,não existe mais
+IfcCostSchedule,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCostSchedule,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCostValue,ArithmeticOperator,novo,não existia,Opcional
+IfcCostValue,Category,novo,não existia,Opcional
+IfcCostValue,Components,novo,não existia,Opcional
+IfcCostValue,CostType,removido,Obrigatório,não existe mais
+IfcCovering,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCoveringType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCrewResource,BaseCosts,novo,não existia,Opcional
+IfcCrewResource,Identification,novo,não existia,Opcional
+IfcCrewResource,LongDescription,novo,não existia,Opcional
+IfcCrewResource,PredefinedType,novo,não existia,Opcional
+IfcCrewResource,Usage,novo,não existia,Opcional
+IfcCrewResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcCrewResource,ResourceGroup,removido,Opcional,não existe mais
+IfcCrewResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcCrewResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCurrencyRelationship,Description,novo,não existia,Opcional
+IfcCurrencyRelationship,Name,novo,não existia,Opcional
+IfcCurrencyRelationship,RateDateTime,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCurtainWall,PredefinedType,novo,não existia,Opcional
+IfcCurtainWall,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCurtainWallType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcCurveStyle,ModelOrDraughting,novo,não existia,Opcional
+IfcCurveStyleFontAndScaling,CurveStyleFont,novo,não existia,Obrigatório
+IfcCurveStyleFontAndScaling,CurveFont,removido,Obrigatório,não existe mais
+IfcDamperType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDerivedUnit,Name,novo,não existia,Opcional
+IfcDiscreteAccessory,PredefinedType,novo,não existia,Opcional
+IfcDiscreteAccessory,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDiscreteAccessoryType,PredefinedType,novo,não existia,Obrigatório
+IfcDiscreteAccessoryType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionChamberElement,PredefinedType,novo,não existia,Opcional
+IfcDistributionChamberElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionChamberElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionControlElement,ControlElementId,removido,Opcional,não existe mais
+IfcDistributionControlElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionControlElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionFlowElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionFlowElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDistributionPort,PredefinedType,novo,não existia,Opcional
+IfcDistributionPort,SystemType,novo,não existia,Opcional
+IfcDistributionPort,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDocumentInformation,Identification,novo,não existia,Obrigatório
+IfcDocumentInformation,Location,novo,não existia,Opcional
+IfcDocumentInformation,DocumentId,removido,Obrigatório,não existe mais
+IfcDocumentInformation,DocumentReferences,removido,Opcional,não existe mais
+IfcDocumentInformationRelationship,Description,novo,não existia,Opcional
+IfcDocumentInformationRelationship,Name,novo,não existia,Opcional
+IfcDocumentReference,Description,novo,não existia,Opcional
+IfcDocumentReference,Identification,novo,não existia,Opcional
+IfcDocumentReference,ReferencedDocument,novo,não existia,Opcional
+IfcDocumentReference,ItemReference,removido,Opcional,não existe mais
+IfcDoor,OperationType,novo,não existia,Opcional
+IfcDoor,PredefinedType,novo,não existia,Opcional
+IfcDoor,UserDefinedOperationType,novo,não existia,Opcional
+IfcDoor,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDoorLiningProperties,LiningToPanelOffsetX,novo,não existia,Opcional
+IfcDoorLiningProperties,LiningToPanelOffsetY,novo,não existia,Opcional
+IfcDoorLiningProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDoorPanelProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDuctFittingType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDuctSegmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcDuctSilencerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElectricApplianceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElectricFlowStorageDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElectricGeneratorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElectricMotorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElectricTimeControlType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementAssembly,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementAssembly,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementComponent,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementComponentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementQuantity,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcEllipseProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcEnergyConversionDevice,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcEnergyConversionDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcEvaporativeCoolerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcEvaporatorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcExternalReference,Identification,novo,não existia,Opcional
+IfcExternalReference,ItemReference,removido,Opcional,não existe mais
+IfcExternallyDefinedHatchStyle,Identification,novo,não existia,Opcional
+IfcExternallyDefinedHatchStyle,ItemReference,removido,Opcional,não existe mais
+IfcExternallyDefinedSurfaceStyle,Identification,novo,não existia,Opcional
+IfcExternallyDefinedSurfaceStyle,ItemReference,removido,Opcional,não existe mais
+IfcExternallyDefinedTextFont,Identification,novo,não existia,Opcional
+IfcExternallyDefinedTextFont,ItemReference,removido,Opcional,não existe mais
+IfcExtrudedAreaSolid,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFanType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFastener,PredefinedType,novo,não existia,Opcional
+IfcFastener,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFastenerType,PredefinedType,novo,não existia,Obrigatório
+IfcFastenerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFeatureElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFeatureElementAddition,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFeatureElementSubtraction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFillAreaStyle,ModelOrDraughting,novo,não existia,Opcional
+IfcFilterType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFireSuppressionTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowController,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowControllerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowFitting,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowFittingType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowInstrumentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowMeterType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowMovingDevice,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowMovingDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowSegment,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowSegmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowStorageDevice,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowStorageDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowTerminal,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowTreatmentDevice,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFlowTreatmentDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFooting,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFooting,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFurnishingElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFurnishingElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcFurnitureType,PredefinedType,novo,não existia,Opcional
+IfcFurnitureType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcGrid,PredefinedType,novo,não existia,Opcional
+IfcGrid,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcGridPlacement,PlacementRelTo,novo,não existia,Opcional
+IfcGroup,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcHeatExchangerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcHumidifierType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcIShapeProfileDef,FlangeEdgeRadius,novo,não existia,Opcional
+IfcIShapeProfileDef,FlangeSlope,novo,não existia,Opcional
+IfcIShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcImageTexture,Mode,novo,não existia,Opcional
+IfcImageTexture,Parameter,novo,não existia,Opcional
+IfcImageTexture,URLReference,novo,não existia,Obrigatório
+IfcImageTexture,TextureType,removido,Obrigatório,não existe mais
+IfcImageTexture,UrlReference,removido,Obrigatório,não existe mais
+IfcInventory,PredefinedType,novo,não existia,Opcional
+IfcInventory,InventoryType,removido,Obrigatório,não existe mais
+IfcInventory,Jurisdiction,obrigatoriedade,Era Obrigatório,É Opcional
+IfcInventory,LastUpdateDate,obrigatoriedade,Era Obrigatório,É Opcional
+IfcInventory,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcInventory,ResponsiblePersons,obrigatoriedade,Era Obrigatório,É Opcional
+IfcJunctionBoxType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcLShapeProfileDef,CentreOfGravityInX,removido,Opcional,não existe mais
+IfcLShapeProfileDef,CentreOfGravityInY,removido,Opcional,não existe mais
+IfcLShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcLaborResource,BaseCosts,novo,não existia,Opcional
+IfcLaborResource,Identification,novo,não existia,Opcional
+IfcLaborResource,LongDescription,novo,não existia,Opcional
+IfcLaborResource,PredefinedType,novo,não existia,Opcional
+IfcLaborResource,Usage,novo,não existia,Opcional
+IfcLaborResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcLaborResource,ResourceGroup,removido,Opcional,não existe mais
+IfcLaborResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcLaborResource,SkillSet,removido,Opcional,não existe mais
+IfcLaborResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcLampType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcLibraryInformation,Description,novo,não existia,Opcional
+IfcLibraryInformation,Location,novo,não existia,Opcional
+IfcLibraryInformation,LibraryReference,removido,Opcional,não existe mais
+IfcLibraryReference,Description,novo,não existia,Opcional
+IfcLibraryReference,Identification,novo,não existia,Opcional
+IfcLibraryReference,Language,novo,não existia,Opcional
+IfcLibraryReference,ReferencedLibrary,novo,não existia,Opcional
+IfcLibraryReference,ItemReference,removido,Opcional,não existe mais
+IfcLightFixtureType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMaterial,Category,novo,não existia,Opcional
+IfcMaterial,Description,novo,não existia,Opcional
+IfcMaterialLayer,Category,novo,não existia,Opcional
+IfcMaterialLayer,Description,novo,não existia,Opcional
+IfcMaterialLayer,Name,novo,não existia,Opcional
+IfcMaterialLayer,Priority,novo,não existia,Opcional
+IfcMaterialLayerSet,Description,novo,não existia,Opcional
+IfcMaterialLayerSetUsage,ReferenceExtent,novo,não existia,Opcional
+IfcMaterialProperties,Description,novo,não existia,Opcional
+IfcMaterialProperties,Name,novo,não existia,Opcional
+IfcMaterialProperties,Properties,novo,não existia,Obrigatório
+IfcMechanicalFastener,PredefinedType,novo,não existia,Opcional
+IfcMechanicalFastener,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMechanicalFastenerType,NominalDiameter,novo,não existia,Opcional
+IfcMechanicalFastenerType,NominalLength,novo,não existia,Opcional
+IfcMechanicalFastenerType,PredefinedType,novo,não existia,Obrigatório
+IfcMechanicalFastenerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMember,PredefinedType,novo,não existia,Opcional
+IfcMember,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMemberType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMetric,ReferencePath,novo,não existia,Opcional
+IfcMetric,DataValue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcMotorConnectionType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcObject,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcObjectDefinition,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcObjectPlacement,PlacementRelTo,novo,não existia,Opcional
+IfcObjective,LogicalAggregator,novo,não existia,Opcional
+IfcObjective,ResultValues,removido,Opcional,não existe mais
+IfcOccupant,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcOccupant,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcOpeningElement,PredefinedType,novo,não existia,Opcional
+IfcOpeningElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcOrganization,Identification,novo,não existia,Opcional
+IfcOrganization,Id,removido,Opcional,não existe mais
+IfcOrganizationRelationship,Name,obrigatoriedade,Era Obrigatório,É Opcional
+IfcOutletType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcOwnerHistory,ChangeAction,obrigatoriedade,Era Obrigatório,É Opcional
+IfcParameterizedProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPerformanceHistory,Identification,novo,não existia,Opcional
+IfcPerformanceHistory,PredefinedType,novo,não existia,Opcional
+IfcPerformanceHistory,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPermeableCoveringProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPermit,Identification,novo,não existia,Opcional
+IfcPermit,LongDescription,novo,não existia,Opcional
+IfcPermit,PredefinedType,novo,não existia,Opcional
+IfcPermit,Status,novo,não existia,Opcional
+IfcPermit,PermitID,removido,Obrigatório,não existe mais
+IfcPermit,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPerson,Identification,novo,não existia,Opcional
+IfcPerson,Id,removido,Opcional,não existe mais
+IfcPile,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPile,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPipeFittingType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPipeSegmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPixelTexture,Mode,novo,não existia,Opcional
+IfcPixelTexture,Parameter,novo,não existia,Opcional
+IfcPixelTexture,TextureType,removido,Obrigatório,não existe mais
+IfcPlate,PredefinedType,novo,não existia,Opcional
+IfcPlate,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPlateType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPort,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProcedure,Identification,novo,não existia,Opcional
+IfcProcedure,LongDescription,novo,não existia,Opcional
+IfcProcedure,PredefinedType,novo,não existia,Opcional
+IfcProcedure,ProcedureID,removido,Obrigatório,não existe mais
+IfcProcedure,ProcedureType,removido,Obrigatório,não existe mais
+IfcProcedure,UserDefinedProcedureType,removido,Opcional,não existe mais
+IfcProcedure,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProcess,Identification,novo,não existia,Opcional
+IfcProcess,LongDescription,novo,não existia,Opcional
+IfcProcess,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProduct,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProfileProperties,Description,novo,não existia,Opcional
+IfcProfileProperties,Name,novo,não existia,Opcional
+IfcProfileProperties,Properties,novo,não existia,Obrigatório
+IfcProfileProperties,ProfileName,removido,Opcional,não existe mais
+IfcProfileProperties,ProfileDefinition,obrigatoriedade,Era Opcional,É Obrigatório
+IfcProject,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProject,RepresentationContexts,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProject,UnitsInContext,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProjectOrder,Identification,novo,não existia,Opcional
+IfcProjectOrder,LongDescription,novo,não existia,Opcional
+IfcProjectOrder,ID,removido,Obrigatório,não existe mais
+IfcProjectOrder,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProjectOrder,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProjectionElement,PredefinedType,novo,não existia,Opcional
+IfcProjectionElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProperty,Specification,novo,não existia,Opcional
+IfcProperty,Description,removido,Opcional,não existe mais
+IfcPropertyBoundedValue,SetPointValue,novo,não existia,Opcional
+IfcPropertyBoundedValue,Specification,novo,não existia,Opcional
+IfcPropertyBoundedValue,Description,removido,Opcional,não existe mais
+IfcPropertyDefinition,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertyEnumeratedValue,Specification,novo,não existia,Opcional
+IfcPropertyEnumeratedValue,Description,removido,Opcional,não existe mais
+IfcPropertyEnumeratedValue,EnumerationValues,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertyListValue,Specification,novo,não existia,Opcional
+IfcPropertyListValue,Description,removido,Opcional,não existe mais
+IfcPropertyListValue,ListValues,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertyReferenceValue,Specification,novo,não existia,Opcional
+IfcPropertyReferenceValue,Description,removido,Opcional,não existe mais
+IfcPropertyReferenceValue,PropertyReference,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertySet,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertySetDefinition,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertySingleValue,Specification,novo,não existia,Opcional
+IfcPropertySingleValue,Description,removido,Opcional,não existe mais
+IfcPropertyTableValue,CurveInterpolation,novo,não existia,Opcional
+IfcPropertyTableValue,Specification,novo,não existia,Opcional
+IfcPropertyTableValue,Description,removido,Opcional,não existe mais
+IfcPropertyTableValue,DefinedValues,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPropertyTableValue,DefiningValues,obrigatoriedade,Era Obrigatório,É Opcional
+IfcProtectiveDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcPumpType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcQuantityArea,Formula,novo,não existia,Opcional
+IfcQuantityCount,Formula,novo,não existia,Opcional
+IfcQuantityLength,Formula,novo,não existia,Opcional
+IfcQuantityTime,Formula,novo,não existia,Opcional
+IfcQuantityVolume,Formula,novo,não existia,Opcional
+IfcQuantityWeight,Formula,novo,não existia,Opcional
+IfcRailing,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRailingType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRamp,PredefinedType,novo,não existia,Opcional
+IfcRamp,ShapeType,removido,Obrigatório,não existe mais
+IfcRamp,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRampFlight,PredefinedType,novo,não existia,Opcional
+IfcRampFlight,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRampFlightType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRectangleHollowProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRectangleProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcementDefinitionProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingBar,PredefinedType,novo,não existia,Opcional
+IfcReinforcingBar,BarRole,removido,Obrigatório,não existe mais
+IfcReinforcingBar,CrossSectionArea,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingBar,NominalDiameter,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingBar,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,PredefinedType,novo,não existia,Opcional
+IfcReinforcingMesh,LongitudinalBarCrossSectionArea,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,LongitudinalBarNominalDiameter,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,LongitudinalBarSpacing,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,TransverseBarCrossSectionArea,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,TransverseBarNominalDiameter,obrigatoriedade,Era Obrigatório,É Opcional
+IfcReinforcingMesh,TransverseBarSpacing,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAggregates,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssigns,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToActor,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToControl,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToGroup,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToProcess,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToProduct,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssignsToResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociates,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesApproval,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesClassification,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesConstraint,Intent,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesConstraint,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesDocument,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesLibrary,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelAssociatesMaterial,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnects,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsElements,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsPathElements,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsPortToElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsPorts,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsStructuralActivity,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsStructuralMember,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsWithEccentricity,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelConnectsWithRealizingElements,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelContainedInSpatialStructure,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelCoversBldgElements,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelCoversSpaces,RelatingSpace,novo,não existia,Obrigatório
+IfcRelCoversSpaces,RelatedSpace,removido,Obrigatório,não existe mais
+IfcRelCoversSpaces,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelDecomposes,RelatedObjects,removido,Obrigatório,não existe mais
+IfcRelDecomposes,RelatingObject,removido,Obrigatório,não existe mais
+IfcRelDecomposes,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelDefines,RelatedObjects,removido,Obrigatório,não existe mais
+IfcRelDefines,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelDefinesByProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelDefinesByType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelFillsElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelFlowControlElements,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelNests,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelProjectsElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelReferencedInSpatialStructure,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelSequence,UserDefinedSequenceType,novo,não existia,Opcional
+IfcRelSequence,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelSequence,SequenceType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelSequence,TimeLag,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelServicesBuildings,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelSpaceBoundary,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelSpaceBoundary,RelatedBuildingElement,obrigatoriedade,Era Opcional,É Obrigatório
+IfcRelVoidsElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRelationship,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcResource,Identification,novo,não existia,Opcional
+IfcResource,LongDescription,novo,não existia,Opcional
+IfcResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRevolvedAreaSolid,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRoof,PredefinedType,novo,não existia,Opcional
+IfcRoof,ShapeType,removido,Obrigatório,não existe mais
+IfcRoof,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRoot,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcRoundedRectangleProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSanitaryTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSensorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcShapeAspect,PartOfProductDefinitionShape,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSimpleProperty,Specification,novo,não existia,Opcional
+IfcSimpleProperty,Description,removido,Opcional,não existe mais
+IfcSite,CompositionType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSite,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSlab,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSlabType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpace,PredefinedType,novo,não existia,Opcional
+IfcSpace,InteriorOrExteriorSpace,removido,Obrigatório,não existe mais
+IfcSpace,CompositionType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpace,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpaceHeaterType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpaceType,LongName,novo,não existia,Opcional
+IfcSpaceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpatialStructureElement,CompositionType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpatialStructureElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSpatialStructureElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStackTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStair,PredefinedType,novo,não existia,Opcional
+IfcStair,ShapeType,removido,Obrigatório,não existe mais
+IfcStair,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStairFlight,NumberOfRisers,novo,não existia,Opcional
+IfcStairFlight,PredefinedType,novo,não existia,Opcional
+IfcStairFlight,NumberOfRiser,removido,Opcional,não existe mais
+IfcStairFlight,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStairFlightType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralAction,CausedBy,removido,Opcional,não existe mais
+IfcStructuralAction,DestabilizingLoad,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralAction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralActivity,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralAnalysisModel,SharedPlacement,novo,não existia,Opcional
+IfcStructuralAnalysisModel,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralConnection,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralCurveConnection,AxisDirection,novo,não existia,Obrigatório
+IfcStructuralCurveConnection,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralCurveMember,Axis,novo,não existia,Obrigatório
+IfcStructuralCurveMember,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralCurveMemberVarying,Axis,novo,não existia,Obrigatório
+IfcStructuralCurveMemberVarying,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralItem,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralLinearAction,PredefinedType,novo,não existia,Obrigatório
+IfcStructuralLinearAction,CausedBy,removido,Opcional,não existe mais
+IfcStructuralLinearAction,DestabilizingLoad,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralLinearAction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralLinearAction,ProjectedOrTrue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralLoadGroup,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralLoadTemperature,DeltaTConstant,novo,não existia,Opcional
+IfcStructuralLoadTemperature,DeltaTY,novo,não existia,Opcional
+IfcStructuralLoadTemperature,DeltaTZ,novo,não existia,Opcional
+IfcStructuralLoadTemperature,DeltaT_Constant,removido,Opcional,não existe mais
+IfcStructuralLoadTemperature,DeltaT_Y,removido,Opcional,não existe mais
+IfcStructuralLoadTemperature,DeltaT_Z,removido,Opcional,não existe mais
+IfcStructuralMember,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPlanarAction,PredefinedType,novo,não existia,Obrigatório
+IfcStructuralPlanarAction,CausedBy,removido,Opcional,não existe mais
+IfcStructuralPlanarAction,DestabilizingLoad,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPlanarAction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPlanarAction,ProjectedOrTrue,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPointAction,CausedBy,removido,Opcional,não existe mais
+IfcStructuralPointAction,DestabilizingLoad,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPointAction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPointConnection,ConditionCoordinateSystem,novo,não existia,Opcional
+IfcStructuralPointConnection,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralPointReaction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralReaction,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralResultGroup,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralSurfaceConnection,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralSurfaceMember,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcStructuralSurfaceMemberVarying,SubsequentThickness,removido,Obrigatório,não existe mais
+IfcStructuralSurfaceMemberVarying,VaryingThicknessLocation,removido,Obrigatório,não existe mais
+IfcStructuralSurfaceMemberVarying,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSubContractResource,BaseCosts,novo,não existia,Opcional
+IfcSubContractResource,Identification,novo,não existia,Opcional
+IfcSubContractResource,LongDescription,novo,não existia,Opcional
+IfcSubContractResource,PredefinedType,novo,não existia,Opcional
+IfcSubContractResource,Usage,novo,não existia,Opcional
+IfcSubContractResource,JobDescription,removido,Opcional,não existe mais
+IfcSubContractResource,ResourceConsumption,removido,Opcional,não existe mais
+IfcSubContractResource,ResourceGroup,removido,Opcional,não existe mais
+IfcSubContractResource,ResourceIdentifier,removido,Opcional,não existe mais
+IfcSubContractResource,SubContractor,removido,Opcional,não existe mais
+IfcSubContractResource,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceCurveSweptAreaSolid,EndParam,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceCurveSweptAreaSolid,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceCurveSweptAreaSolid,StartParam,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceOfLinearExtrusion,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceOfRevolution,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSurfaceStyleShading,Transparency,novo,não existia,Opcional
+IfcSurfaceTexture,Mode,novo,não existia,Opcional
+IfcSurfaceTexture,Parameter,novo,não existia,Opcional
+IfcSurfaceTexture,TextureType,removido,Obrigatório,não existe mais
+IfcSweptAreaSolid,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSweptDiskSolid,EndParam,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSweptDiskSolid,StartParam,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSweptSurface,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSwitchingDeviceType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSystem,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcSystemFurnitureElementType,PredefinedType,novo,não existia,Opcional
+IfcSystemFurnitureElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTShapeProfileDef,CentreOfGravityInY,removido,Opcional,não existe mais
+IfcTShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTable,Columns,novo,não existia,Opcional
+IfcTable,Name,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTable,Rows,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTableRow,IsHeading,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTableRow,RowCells,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTankType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTask,Identification,novo,não existia,Opcional
+IfcTask,LongDescription,novo,não existia,Opcional
+IfcTask,PredefinedType,novo,não existia,Opcional
+IfcTask,TaskTime,novo,não existia,Opcional
+IfcTask,TaskId,removido,Obrigatório,não existe mais
+IfcTask,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTelecomAddress,MessagingIDs,novo,não existia,Opcional
+IfcTendon,CrossSectionArea,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTendon,NominalDiameter,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTendon,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTendon,PredefinedType,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTendonAnchor,PredefinedType,novo,não existia,Opcional
+IfcTendonAnchor,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTextStyle,ModelOrDraughting,novo,não existia,Opcional
+IfcTextStyleFontModel,FontFamily,obrigatoriedade,Era Opcional,É Obrigatório
+IfcTextureCoordinate,Maps,novo,não existia,Obrigatório
+IfcTextureCoordinateGenerator,Maps,novo,não existia,Obrigatório
+IfcTextureCoordinateGenerator,Parameter,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTextureMap,MappedTo,novo,não existia,Obrigatório
+IfcTextureMap,Maps,novo,não existia,Obrigatório
+IfcTextureMap,Vertices,novo,não existia,Obrigatório
+IfcTextureMap,TextureMaps,removido,Obrigatório,não existe mais
+IfcTransformerType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTransportElement,PredefinedType,novo,não existia,Opcional
+IfcTransportElement,CapacityByNumber,removido,Opcional,não existe mais
+IfcTransportElement,CapacityByWeight,removido,Opcional,não existe mais
+IfcTransportElement,OperationType,removido,Opcional,não existe mais
+IfcTransportElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTransportElementType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTrapeziumProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTubeBundleType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTypeObject,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcTypeProduct,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcUShapeProfileDef,CentreOfGravityInX,removido,Opcional,não existe mais
+IfcUShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcUnitaryEquipmentType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcValveType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcVibrationIsolatorType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcVirtualElement,PredefinedType,novo,não existia,Opcional
+IfcVirtualElement,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWall,PredefinedType,novo,não existia,Opcional
+IfcWall,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWallStandardCase,PredefinedType,novo,não existia,Opcional
+IfcWallStandardCase,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWallType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWasteTerminalType,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWindow,PartitioningType,novo,não existia,Opcional
+IfcWindow,PredefinedType,novo,não existia,Opcional
+IfcWindow,UserDefinedPartitioningType,novo,não existia,Opcional
+IfcWindow,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWindowLiningProperties,LiningOffset,novo,não existia,Opcional
+IfcWindowLiningProperties,LiningToPanelOffsetX,novo,não existia,Opcional
+IfcWindowLiningProperties,LiningToPanelOffsetY,novo,não existia,Opcional
+IfcWindowLiningProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWindowPanelProperties,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWorkControl,Identification,novo,não existia,Opcional
+IfcWorkControl,Identifier,removido,Obrigatório,não existe mais
+IfcWorkControl,UserDefinedControlType,removido,Opcional,não existe mais
+IfcWorkControl,WorkControlType,removido,Opcional,não existe mais
+IfcWorkControl,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWorkPlan,Identification,novo,não existia,Opcional
+IfcWorkPlan,PredefinedType,novo,não existia,Opcional
+IfcWorkPlan,Identifier,removido,Obrigatório,não existe mais
+IfcWorkPlan,UserDefinedControlType,removido,Opcional,não existe mais
+IfcWorkPlan,WorkControlType,removido,Opcional,não existe mais
+IfcWorkPlan,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcWorkSchedule,Identification,novo,não existia,Opcional
+IfcWorkSchedule,PredefinedType,novo,não existia,Opcional
+IfcWorkSchedule,Identifier,removido,Obrigatório,não existe mais
+IfcWorkSchedule,UserDefinedControlType,removido,Opcional,não existe mais
+IfcWorkSchedule,WorkControlType,removido,Opcional,não existe mais
+IfcWorkSchedule,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
+IfcZShapeProfileDef,Position,obrigatoriedade,Era Obrigatório,É Opcional
+IfcZone,LongName,novo,não existia,Opcional
+IfcZone,OwnerHistory,obrigatoriedade,Era Obrigatório,É Opcional
